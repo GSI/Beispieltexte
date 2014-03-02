@@ -1,0 +1,61 @@
+h1. Beispielüberschrift
+
+
+Bespieltext
+
+Horizontal rule
+
+----
+
+"Email someone":mailto:someone@foo.bar 
+
+JPL(Jean-Philippe Lang)
+
+h2. Subheading
+
+* *bold*
+* _italic_
+* *_bold italic_*
+* +underline+
+* -strike-through-
+* Plain ^superscript^
+* Plain ~subscript~
+* @inline monospace@
+
+
+>> Rails is a full-stack framework for developing database-backed web applications according to the Model-View-Control pattern.
+>> To go live, all you need to add is a database and a web server.
+> Great!
+
+
+Unordered lists
+
+* Item 1
+* Item 2
+** Item 21
+** Item 22
+* Item 3
+
+
+Ordered lists
+
+# Item 1
+# Item 2
+# Item 3
+## Item 3.1
+## Item 3.2
+
+|_.UserID      |_.Name          |_.Group     |_. attribute list   |
+|Starting with | a              |   simple   |row                 |
+|\3=.IT                                      |<. align left       |
+|1             |Artur Pirozhkov |/2.Users    |>. align right      |
+|2             |Vasya Rogov     |=. center   |
+|3             |John Smith      |Admin
+                                 (root)      |^. valign top       |
+|4             |-               |Nobody
+                                 (anonymous) |~. valign bottom    |
+
+
+<pre><code class="ruby">
+  puts "Place your code here."
+</code></pre>
